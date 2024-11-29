@@ -4,10 +4,7 @@
  */
 package model;
 
-/**
- *
- * @author Admin
- */
+
 public class UserC {
    
     private String code;
