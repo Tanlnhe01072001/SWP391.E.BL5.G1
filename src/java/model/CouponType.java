@@ -6,10 +6,7 @@ package model;
 
 import java.math.BigDecimal;
 
-/**
- *
- * @author ThangNPHE151263
- */
+
 public class CouponType {
     private int couponTypeId;
     private String couponDescription;

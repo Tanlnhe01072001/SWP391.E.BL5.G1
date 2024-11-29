@@ -6,10 +6,7 @@ package model;
 
 import java.util.Date;
 
-/**
- *
- * @author ThangNPHE151263
- */
+
 public class Post {
 
     private int postId;

@@ -4,10 +4,7 @@
  */
 package model;
 
-/**
- *
- * @author ThangNPHE151263
- */
+
 public class PostType {
     private int id;
     private String type;

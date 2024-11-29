@@ -7,10 +7,7 @@ package model;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- *
- * @author ThangNPHE151263
- */
+
 public class Cart {
     List<Item> items;
 

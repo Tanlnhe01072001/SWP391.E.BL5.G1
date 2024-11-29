@@ -1,9 +1,6 @@
 package model;
 
-/**
- *
- * @author Phung An
- */
+
 public class Product_Active {
     private String product_id;
     private String acitve;

@@ -4,10 +4,7 @@
  */
 package model;
 
-/**
- *
- * @author hieupham
- */
+
 public class BillDetail {
 
     int detail_id;

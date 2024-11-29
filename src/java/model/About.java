@@ -4,10 +4,7 @@
  */
 package model;
 
-/**
- *
- * @author ThangNPHE151263
- */
+
 public class About {
     private int AboutId;
     private String Title;
