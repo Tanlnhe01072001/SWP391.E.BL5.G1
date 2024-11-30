@@ -18,6 +18,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
+import model.BillDetail;
 import model.UserC;
 
 /**
@@ -86,31 +87,31 @@ public class User extends HttpServlet {
             response.sendRedirect("home");
         }
 
-        if (action.equals("myaccount")) {
-            try {
-                HttpSession session = request.getSession();
-                model.User user = (model.User) session.getAttribute("user");
-                if (user != null) {
-                    int user_id = user.getUser_id();
-                    billDAO dao = new billDAO();
-                    List<model.Bill> bill = dao.getBillByID(user_id);
-                    request.setAttribute("bill", bill);
-                    request.getRequestDispatcher("my-account.jsp").forward(request, response);
-                } else {
-                    response.sendRedirect("user?action=myaccount");
-                }
-            } catch (Exception e) {
-                response.sendRedirect("user?action=myaccount");
-            }
-        }
-        if (action.equals("showdetail")) {
-            String bill_id = request.getParameter("bill_id");
-            int id = Integer.parseInt(bill_id);
-            billDAO dao = new billDAO();
-            List<BillDetail> detail = dao.getDetail(id);
-            request.setAttribute("detail", detail);
-            request.getRequestDispatcher("billdetail.jsp").forward(request, response);
-        }
+//        if (action.equals("myaccount")) {
+//            try {
+//                HttpSession session = request.getSession();
+//                model.User user = (model.User) session.getAttribute("user");
+//                if (user != null) {
+//                    int user_id = user.getUser_id();
+//                    billDAO dao = new billDAO();
+//                    List<model.Bill> bill = dao.getBillByID(user_id);
+//                    request.setAttribute("bill", bill);
+//                    request.getRequestDispatcher("my-account.jsp").forward(request, response);
+//                } else {
+//                    response.sendRedirect("user?action=myaccount");
+//                }
+//            } catch (Exception e) {
+//                response.sendRedirect("user?action=myaccount");
+//            }
+//        }
+//        if (action.equals("showdetail")) {
+//            String bill_id = request.getParameter("bill_id");
+//            int id = Integer.parseInt(bill_id);
+//            billDAO dao = new billDAO();
+//            List<BillDetail> detail = dao.getDetail(id);
+//            request.setAttribute("detail", detail);
+//            request.getRequestDispatcher("billdetail.jsp").forward(request, response);
+//        }
         if (action.equals("updateinfo")) {
             HttpSession session = request.getSession();
             model.User user = (model.User) session.getAttribute("user");
