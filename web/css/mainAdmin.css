@@ -13855,7 +13855,7 @@ be a descendant of the grid when it is being dragged.
   padding-right: 10px;
   overflow: auto;
   z-index: 10;
-  background: rgb(0, 28, 64);
+  background: rgb(252, 148, 73);
   /* box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); */
   /* border-bottom-right-radius: 50px; */
 }

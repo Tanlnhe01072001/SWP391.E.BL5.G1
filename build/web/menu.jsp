@@ -45,7 +45,7 @@
                             </c:if>
 
                         <c:if test="${fn:toUpperCase(sessionScope.user.isAdmin) == 'TRUE' || fn:toUpperCase(sessionScope.user.isStoreStaff) == 'TRUE'}">
-                            <li><a href="product">Quản lý</a></li>
+                            <li><a href="customermanager">Quản lý</a></li>
                             </c:if>
                     </ul>
                 </li> 

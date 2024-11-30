@@ -12,6 +12,10 @@
         <servlet-name>Contact</servlet-name>
         <servlet-class>controller.Contact</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>Product_Search</servlet-name>
+        <servlet-class>controller.Product_Search</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>ProductManager</servlet-name>
         <url-pattern>/productmanager</url-pattern>
@@ -19,6 +23,10 @@
     <servlet-mapping>
         <servlet-name>CategoryManager</servlet-name>
         <url-pattern>/categorymanager</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Product_Search</servlet-name>
+        <url-pattern>/search</url-pattern>
     </servlet-mapping>
     <welcome-file-list>
         <welcome-file>home</welcome-file>
