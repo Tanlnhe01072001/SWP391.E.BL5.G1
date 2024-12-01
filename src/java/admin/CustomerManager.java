@@ -17,10 +17,6 @@ import java.util.List;
 import model.User;
 
 
-/**
- *
- * @author hieupham
- */
 @WebServlet(name = "CustomerManager", urlPatterns = {"/customermanager"})
 public class CustomerManager  extends HttpServlet {
 
