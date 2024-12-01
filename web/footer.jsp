@@ -48,58 +48,8 @@
         <footer class="bg-dark text-light py-5">
             <div class="container">
                 <div class="row">
-                    <!-- Company Info -->
-                    <div class="col-md-3 mb-4">
-                        <h5 class="text-uppercase mb-4">Cửa hàng quần áo You&Me</h5>
-                        <p>Mã Số Thuế: 0106486365</p>
-                        <p>Văn phòng: Alpha - Đại học FPT Hà Nội</p>
-                    </div>
-
-                    <!-- Newsletter -->
-                    <div class="col-md-3 mb-4">
-                        <h5 class="text-uppercase mb-4">Bản tin</h5>
-                        <form>
-                            <div class="input-group mb-3">
-                                
-                                <a href="about.jsp" class="text-light">Giới thiệu về You&Me</a>
-                            </div>
-                        </form>
-                    </div>
-
-                    <!-- Company Links -->
-                    <div class="col-md-3 mb-4">
-                        <h5 class="text-uppercase mb-4">Công ty</h5>
-                        <ul class="list-unstyled">
-                            
-                            <li><a href="https://the31.vn/" class="text-light">THE 31</a></li>
-                            <li><a href="https://jobs.routine.vn/" class="text-light">Tuyển dụng</a></li>
-                            
-                            <li><a href="https://routine.vn/franchise" class="text-light">Hợp tác nhượng quyền</a></li>
-                            <li><a href="contact" class="text-light">Liên hệ</a></li>
-                        </ul>
-                    </div>
-
-                    <!-- Social Media -->
-                    <div class="col-md-3 mb-4">
-                        <h5 class="text-uppercase mb-4">Kết nối với chúng tôi</h5>
-                        <div class="d-flex flex-wrap">
-                            <a href="https://www.facebook.com/routinevn" class="btn btn-outline-light me-2 mb-2" target="_blank" rel="nofollow noopener">
-                                <i class="fab fa-facebook-f"></i>
-                            </a>
-                            <a href="https://www.instagram.com/routine_official/" class="btn btn-outline-light me-2 mb-2" target="_blank" rel="nofollow noopener">
-                                <i class="fab fa-instagram"></i>
-                            </a>
-                            <a href="https://zalo.me/routinevn" class="btn btn-outline-light me-2 mb-2" target="_blank" rel="nofollow noopener">
-                                Zalo
-                            </a>
-                            <a href="https://www.youtube.com/@routinevn" class="btn btn-outline-light me-2 mb-2" target="_blank" rel="nofollow noopener">
-                                <i class="fab fa-youtube"></i>
-                            </a>
-                            <a href="https://www.tiktok.com/@routine_vietnam" class="btn btn-outline-light me-2 mb-2" target="_blank" rel="nofollow noopener">
-                                <i class="fab fa-tiktok"></i>
-                            </a>
-                        </div>
-                    </div>
+                   
+                    
                 </div>
 
                 <hr class="my-4">
