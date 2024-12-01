@@ -43,7 +43,7 @@ public class Home extends HttpServlet {
         request.setAttribute("top10", product);
         request.setAttribute("topTrend", product1);
         request.setAttribute("newProducts", newProducts);
-        request.getRequestDispatcher("menu.jsp").forward(request, response);
+        request.getRequestDispatcher("index.jsp").forward(request, response);
     } 
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">

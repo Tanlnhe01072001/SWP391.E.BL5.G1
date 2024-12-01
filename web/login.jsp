@@ -29,6 +29,7 @@
                 align-items: center;
                 justify-content: center;
                 min-height: 43%;
+                
             }
 
             .account_form {

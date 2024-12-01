@@ -18,12 +18,12 @@ public class DBContext {
         return DriverManager.getConnection(url, userID, password);
     }
     private final String serverName = "localhost";
-    private final String dbName = "SWP391_G3";
+    private final String dbName = "SWP391_G1";
     private final String portNumber = "1433";
     private final String instance = "";//LEAVE THIS ONE EMPTY IF YOUR SQL IS A SINGLE INSTANCE
     private final String userID = "sa";
 
-    private final String password = "1";
+    private final String password = "123456";
      
 }
 

@@ -14,7 +14,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Main CSS-->
-        <link rel="stylesheet" type="text/css" href="admin/css/main.css">
+        <link rel="stylesheet" type="text/css" href="admin/main.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
         <!-- or -->
         <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
@@ -30,18 +30,18 @@
     </head>
     <body onload="time()" class="app sidebar-mini rtl">
         <!-- Navbar-->
-        <header class="app-header">
-            <!-- Sidebar toggle button--><a class="app-sidebar__toggle" href="#" data-toggle="sidebar"
+<!--        <header class="app-header">
+             Sidebar toggle button<a class="app-sidebar__toggle" href="#" data-toggle="sidebar"
                                             aria-label="Hide Sidebar"></a>
-            <!-- Navbar Right Menu-->
+             Navbar Right Menu
             <ul class="app-nav">
 
-                <!-- User Menu-->
+                 User Menu
                 <li><a class="app-nav__item" href="dashboard"><i class='bx bx-log-out bx-rotate-180'></i> </a>
 
                 </li>
             </ul>
-        </header>
+        </header>-->
         <!-- Sidebar menu-->
         <div class="app-sidebar__overlay" data-toggle="sidebar"></div>
         <aside class="app-sidebar">
@@ -104,10 +104,10 @@
                                     </div>
                                 </div>
                                 <!-- UploadExcelBtn -->
-                                <div class="col-sm-2">
+<!--                                <div class="col-sm-2">
                                     <a class="btn btn-delete btn-sm print-file" type="button" title="In" onclick="myApp.printTable()"><i
                                             class="fas fa-print"></i> In dữ liệu</a>
-                                </div>
+                                </div>-->
                             </div>
                             <form action="productmanager" method="POST" enctype="multipart/form-data">
                                 <input type="hidden" name="action" value="updateproduct">

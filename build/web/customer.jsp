@@ -12,7 +12,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Main CSS-->
-        <link rel="stylesheet" type="text/css" href="admin/css/main.css">
+        <link rel="stylesheet" type="text/css" href="admin/main.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
         <!-- or -->
         <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
@@ -28,19 +28,19 @@
 
     <body  class="app sidebar-mini rtl">
         <!-- Navbar-->
-        <header class="app-header">
-            <!-- Sidebar toggle button--><a class="app-sidebar__toggle" href="#" data-toggle="sidebar"
+<!--        <header class="app-header">
+             Sidebar toggle button<a class="app-sidebar__toggle" href="#" data-toggle="sidebar"
                                             aria-label="Hide Sidebar"></a>
-            <!-- Navbar Right Menu-->
+             Navbar Right Menu
             <ul class="app-nav">
 
 
-                <!-- User Menu-->
+                 User Menu
                 <li><a class="app-nav__item" href="dashboard"><i class='bx bx-log-out bx-rotate-180'></i> </a>
 
                 </li>
             </ul>
-        </header>
+        </header>-->
         <!-- Sidebar menu-->
         <div class="app-sidebar__overlay" data-toggle="sidebar"></div>
         <aside class="app-sidebar">
@@ -53,8 +53,11 @@
             </div>
             <hr>
             <ul class="app-menu">
+
                 <li><a class="app-menu__item" href="categorymanager"><i class='app-menu__icon bx bxs-category'></i><span class="app-menu__label">Quản lý danh mục</span></a></li>
                 <li><a class="app-menu__item" href="productmanager"><i class='app-menu__icon bx bx-purchase-tag-alt'></i><span class="app-menu__label">Quản lý sản phẩm</span></a></li>
+
+
 
 
                 <!-- Conditionally Display Menu Items -->
@@ -78,12 +81,12 @@
                     <div class="tile">
                         <div class="tile-body">
 
-                            <div class="row element-button">
+<!--                            <div class="row element-button">
                                 <div class="col-sm-2">
                                     <a class="btn btn-delete btn-sm print-file" type="button" title="In" onclick="myApp.printTable()"><i
                                             class="fas fa-print"></i> In dữ liệu</a>
                                 </div>
-                            </div>
+                            </div>-->
 
                             <div class="form-group">
                                 <label for="userRoleFilter"></label>
@@ -130,6 +133,8 @@
                                                         data-target="#ModalUP${u.user_id}"><i class="fas fa-edit"></i></button>
                                                 <button class="btn btn-primary btn-sm trash" type="button" title="Xóa" value="${u.user_id}"><i
                                                         class="fas fa-trash-alt"></i>
+                                                        
+                                                       
                                             </td>
 
                                             <td>
