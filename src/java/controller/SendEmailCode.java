@@ -51,8 +51,8 @@ public class SendEmailCode {
 
     public boolean sendEmail1(UserC userc) {
         boolean test = false;
-        String fromEmail = "nguyendangkien17999@gmail.com";
-        String password = "hlfa bbpv enjc zxmj";
+        String fromEmail = "baothanh.mailsender";
+        String password = "cxcy usgl gosg qroo";
         String toEmail = userc.getEmail();
         try {
             Properties pr = new Properties();
@@ -87,8 +87,8 @@ public class SendEmailCode {
         boolean test = false;
 //        String fromEmail = "anpk2300@gmail.com";
 //        String password = "hqhg edip bajd foln";
-        String fromEmail = "nguyendangkien17999@gmail.com";
-        String password = "hlfa bbpv enjc zxmj";
+        String fromEmail = "baothanh.mailsender";
+        String password = "cxcy usgl gosg qroo";
         String toEmail = userc.getEmail();
         try {
             Properties pr = new Properties();
